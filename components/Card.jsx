@@ -21,7 +21,7 @@ export default function Card(props) {
         <div className="card--stats">
           <img src="assets/star.png" className="card--star" alt="airbnb star" />
           <span>{props.stats.rating}</span>
-          <span className="grey">({props.stats.reviewcount}) • </span>
+          <span className="grey">({props.stats.reviewCount}) • </span>
           <span className="grey">{props.location}</span>
         </div>
         <p className="card--title">{props.title}</p>
